@@ -60,7 +60,7 @@ function App() {
         <div className='ui divider'></div>
         <div className='ui form'>
           <div className='field'>
-          <p>{formErrors.username}</p>
+          <p className="error">{formErrors.username}</p>
             <label>Username</label>
             <input type='text' 
             name="username" 
@@ -69,7 +69,7 @@ function App() {
               onChange={handleChange}
             />
           </div>
-          <p>{formErrors.email}</p>
+          <p className="error">{formErrors.email}</p>
           <div className='field'>
             <label>Email</label>
             <input type='email' 
@@ -79,7 +79,7 @@ function App() {
             onChange={handleChange}
             />
           </div>
-          <p>{formErrors.password}</p>
+          <p className="error">{formErrors.password}</p>
           <div className='field'>
           <label>Password</label>
           <input type='password' 

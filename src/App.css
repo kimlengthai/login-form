@@ -66,3 +66,10 @@ h1 {
 .fluid.ui.button.blue:hover {
   background-color: #80c0ff;
 }
+
+.error {
+  color: red;
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: -10px; /* Adjust the space above the error message */
+  margin-bottom: 10px; /* Adjust the space below the error message */
+}
