@@ -70,6 +70,6 @@ h1 {
 .error {
   color: red;
   font-size: 14px; /* Adjust the font size as needed */
-  margin-top: -10px; /* Adjust the space above the error message */
-  margin-bottom: 10px; /* Adjust the space below the error message */
+  margin-top: 5px; /* Adjust the space above the error message */
+  margin-bottom: 5px; /* Adjust the space below the error message */
 }
